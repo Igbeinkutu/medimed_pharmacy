@@ -1,0 +1,157 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Language Translate Bar</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Language Translate Bar&rdquo; Documentation by &ldquo;Nytrolic&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Language Translate Bar&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 8/12/2010<br>
+					By: Nytrolic<br>
+					Email: <a href="mailto:webmaster@aszune.co.uk">webmaster@aszune.co.uk</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my item. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://codecanyon.net/user/nytrolic">here</a>. Thanks!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#css">Sort The CSS</a></li>
+			<li><a href="#images">Sort The Images</a></li>
+			<li><a href="#code">Code and Configure</a></li>
+            <li><a href="#notes">Other Notes</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="css">Sorting The CSS</h3>
+            <p>Sorting the CSS, you've got two options here, you can either:</p>
+            <p> 1) upload the CSS file you received in this download to your web server - and make sure you reference it in your pages!</p>
+            <p>OR</p>
+            <p>2) copy the CSS rules from the CSS file in this download to your existing CSS file, 
+            you only need two rules, they are '#translateBar' and '#notifier'</p>
+            
+            <p>These are the two CSS ID's you need.</p>
+            <img src="assets/images/css.png" />
+            
+            <p>BOOM! step 1 is done.</p>
+		<hr>
+
+		<h3 id="images">Sorting The Images</h3>
+            <p>1) upload the Flags folder into your images folder, or elsewere, just remember to change the image paths on your website!</p>
+            <p>2) the loader image, needs to be uploaded into your images folder, 
+            if you want it somewere else, again dont forget to change the image path location on your webpage (it's in the notifier div).</p>
+			
+            <p>This is the default image structure.</p>
+            <img src="assets/images/images_structure.png" />
+            
+            <p>Ca-ching! Step 2 done.</p>
+		<hr>
+		
+		<h3 id="code">Code And Configure</h3>
+			<p>Now you need to put the good stuff into your website.</p>
+
+			<p>A few things first, you need to make sure you have jQuery and jQuery Translate included at the top of your page, 
+            if you havn't, here's the code (from lines 5-9) to include them both:</p>
+
+			<img src="assets/images/include_js.png" />
+			
+            <p>Also, if you dont have PHP sessions turned on, you will need to copy line 1, right at the very top of your file:</p>
+            <p><?php session_start(); ?></p>
+
+
+            <p>Now, finally... lets put this together....</p>
+            <ul>
+                <li>
+                1) Upload ajax.php into your websites root directory (the place with your index file)
+                </li>
+                <li>
+                2) Upload the 'js' folder into your websites root directory as well
+                </li>
+                <li>
+                2) Open up index.php from the demo folder and locate the 
+                div 'div id="translateBar"' this is where you are going to put your flag icons.
+                </li>
+                <li>
+                2b) To add a new langauge you do it like this:
+                <img src="assets/images/include_Languages.png"/>
+                </li>
+            </ul>
+
+
+
+
+			<p>You give the img element a class of translate, and then give it the ID of the language you are wanting to translate it to. 
+            So for German, you would give it an ID of 'de', French would be 'fr', Spanish would be 'es' and so on!</p>
+
+
+            <p>Heres a list of the languages Google can translate to, along with country codes:
+            <a href="http://code.google.com/apis/language/translate/v1/reference.html#translatableLanguages" target="_blank">http://code.google.com/apis/language/translate/v1/reference.html#translatableLanguages</a></p>
+
+
+			<p>Just remember to give it the correct flag image, to avoid confusing people! :P</p>
+
+			<p>3) Notification! let your users know somethings going on when they click a langauge flag, 
+            to do this you need to copy and paste this div right under the translateBar div:</p>
+			
+            <img src="assets/images/notfier.png" />
+
+
+			<p>4) jQuery power! Scroll to the bottom of the index.php and copy/paste everything inbetween the 
+            javascript tags (including the tags as well!) and paste it into your websites footer.</p>
+			
+            <img src="assets/images/needed-jquery.png" />
+            
+			<p>Thats it, done!</p>
+			
+		<hr>
+		
+		<h3 id="notes">Side Notes</h3>
+        
+        <p>Oh and also, one last thing. If your websites default language isnt English, 
+        you will need to edit two lines in the jQuery, they are...</p>
+        
+        $("body").translate('en', data);
+        And
+        $("body").translate('en', Language);
+        
+        <P>Change 'en' to your country code.</p>
+        
+        <p>If you have anymore questions email me - webmaster@aszune.co.uk or post a comment on the item, and i'll get back to you  :)<p>
+        
+        <p>Thanks again!</p>
+        
+        <p>-Nytro</p>
+			
+            
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

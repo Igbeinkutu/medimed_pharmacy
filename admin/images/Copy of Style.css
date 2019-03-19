@@ -1,0 +1,689 @@
+﻿/* Body */
+body
+{
+	text-align: right;
+	direction: rtl;
+	margin: 2px auto 15px auto;
+	font-family: "tahoma";
+	font-size: 12px;
+}
+
+/* Wrapper */
+.Wrapper
+{	
+	width: 950px;
+	margin: 0px auto 0px auto;
+	direction: rtl;
+}
+
+/* Header */
+.Header
+{
+	height: 138px;
+}
+
+/* Menu */
+.MenuRegion
+{	
+	height: 31px;
+	background: url(MenuBG.gif) repeat-x;
+}
+
+/* Search */
+.Search
+{
+	background: url(SearchBG.gif) no-repeat;
+	background-position: center;
+	width: 184px;
+	text-align: center;
+	height: 29px;
+}
+
+.HighLightNews
+{
+	margin-top: 4px;
+}
+
+.Area2
+{
+	clear: both;
+	padding-top: 5px;
+}
+
+/* Quran */
+.Quran
+{
+	height: 27px;
+	text-align: center;
+	padding-top: 4px;
+	background: url(Quran.gif) no-repeat;
+}
+
+/* Container */
+.Container
+{	
+	
+}
+
+/* Body Center */
+.BodyCenter
+{	
+	width: 100%;
+}
+
+/* Footer */
+.Footer
+{
+	width: 100%;
+	clear: both;
+	float: right;
+	padding: 4px;
+	color: #000000;
+	font-size: 10pt;
+	margin-bottom: 10px
+}
+
+/* Loading */
+.Loading
+{
+	position: absolute; 
+	text-align: right; 
+	width: 670px;
+}
+
+/* Page */
+.Page
+{
+	border-left : solid 1px #E2E2E2;
+	border-right : solid 1px #E2E2E2;
+	border-bottom : solid 1px #E2E2E2;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+/* Page */
+.Page1
+{
+	border-left : solid 1px #E2E2E2;
+	border-right : solid 1px #E2E2E2;
+	border-bottom : solid 1px #E2E2E2;
+	padding-top: 15px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 10px;
+}
+
+
+/* Page Title */
+.PageTitle
+{	
+	padding-right : 5px;
+	font-family: "Traditional Arabic";
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+/* Part Title */
+.PartTitle
+{
+	height: 26px;
+	background: url(PartTitleBG.gif);
+	font-family: "Traditional Arabic";
+	font-size: 12pt;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.LeftPartTitle
+{
+	height: 31px;
+	width: 5px;
+	background: url(LeftPartTitleBG.gif) no-repeat;
+	background-position: right top;
+}
+
+/* Right Part Title */
+.RightPartTitle
+{
+	height: 31px;
+	width: 5px; 
+	background: url('RightPartTitleBG.gif') no-repeat left top;
+}
+
+.FloatLable
+{
+	margin-top: 14px;
+	float: right;
+}
+
+
+
+/* Web Part Title */
+
+.WebPartTitle
+{
+	margin-top: 4px;
+	height: 25px;
+	padding-top: 6px;
+	padding-right: 6px;
+	background: url(WebPartTitleBG.gif) no-repeat;
+	font-family: "Traditional Arabic";
+	font-size: 12pt;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.WebPartTitle1
+{
+	
+	height: 25px;
+	padding-top: 6px;
+	padding-right: 6px;
+	background: url(WebPartTitleBG1.gif) no-repeat;
+	font-family: "Traditional Arabic";
+	font-size: 12pt;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+/* Web Part Long Title */
+.WebPartLongTitle
+{
+	margin-top: 4px;
+	height: 25px;
+	padding-top: 6px;
+	padding-right: 10px;
+	background: url(WebPartLongTitleBG.gif) no-repeat;
+	font-family: "Traditional Arabic";
+	font-size: 12pt;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+/* Web Part Short Title */
+.WebPartShortTitle
+{
+	margin-top: 4px;
+	height: 25px;
+	padding-top: 6px;
+	padding-right: 10px;
+	background: url(WebPartShortTitleBG.gif) no-repeat;
+	font-family: "Traditional Arabic";
+	font-size: 12pt;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+/* Web Part */
+.Part
+{
+	border-left: solid 1px #E2E2E2;
+	border-right: solid 1px #E2E2E2;
+	border-bottom: solid 1px #E2E2E2;
+	background-color: #f7f7f7;
+}
+
+.WebPart
+{
+	padding: 4px;
+}
+
+.WebPart1
+{
+	padding: 4px;
+	border: solid 1px #E2E2E2;
+}
+
+.WebPart2
+{
+	padding: 4px;
+	background-color: #f7f7f7;
+	border: solid 1px #E2E2E2;
+}
+
+.WebPart3
+{	
+	background-color: #f7f7f7;
+	border: solid 1px #E2E2E2;
+}
+
+.WebPart4
+{	
+	border: solid 1px #E2E2E2;
+}
+
+/* Subjet Title */
+.SubjetTitle
+{
+	font-family: "Traditional Arabic";
+	font-size: 14pt;
+	color: #666666;
+}
+
+/* Category Title */
+.CategoryTitle
+{
+	color: #FFFFFF; 
+	background-color: #3AA0E2; 
+	font-family: "traditional Arabic"; 
+	padding: 3px; 
+	font-size: 12pt; 
+	font-style: italic; 
+	font-weight: bolder
+}
+
+/* Field Title */
+.FieldTitle
+{
+	margin-top: 4px;
+	height: 27px;
+	padding-right: 10px;
+	background: url(FieldTitleBG.gif) no-repeat;
+	font-family: "Traditional Arabic";
+	font-size: 12pt;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+/* Field Body */
+.FieldBody
+{
+	margin-top: 4px;
+	margin-right: 10px;
+	height: 27px;
+	padding-top: 4px;
+	padding-right: 6px;
+	padding-left: 7px;
+	background: url(FieldBodyBG.gif) no-repeat;
+	font-family: "Traditional Arabic";
+	font-size: 12pt;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+/* Comments Title */
+.CommentsTitle
+{
+	margin-top: 4px;
+	height: 23px;
+	padding-top: 4px;
+	padding-right: 6px;
+	padding-left: 7px;
+	text-align: center;
+	background: url(CommentsTitleBG.gif) no-repeat;
+	font-family: "Traditional Arabic";
+	font-size: 12pt;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+/* Comments Body */
+.CommentsBody
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 5px;
+	padding-left: 7px;
+	background: url(CommentsBodyBG.gif) ;
+	font-family: "Traditional Arabic";
+	font-size: 12pt;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+/* Table Body */
+.TableBody
+{
+	font-family: "tahoma";
+	font-size: 10pt;
+	width: 175px;
+	margin-right: 0px;
+}
+
+/* Button */
+input[type="submit"]
+{
+	background-color: #215786;
+	color: #ffffff;
+	border: solid 1px #E2E2E2;
+	cursor: pointer;
+	font-size: 11px;
+	padding-bottom: 3px;
+}
+
+/* Link As Button */
+a.LinkAsButton
+{	
+	font-family: "tahoma";
+	font-weight: normal;
+	background-color: #215786;
+	color: #ffffff;
+	border: solid 1px #E2E2E2;
+	cursor: pointer;
+	font-size: 11px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	width: 50px;
+	height: 14px;
+	display: inline-block;
+	text-align: center;
+}
+
+a:hover.LinkAsButton
+{
+	text-decoration: none;
+}
+
+/* Image Button */
+.ImageButton
+{
+	padding-top: 3px;
+	text-align: center;
+	display: block;
+	width: 79px;
+	height: 22px;
+	background: url(Button.gif) no-repeat;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+/* INPUT | TextBox */
+INPUT
+{
+	font-family: "tahoma";
+	font-size: 9pt;
+}
+
+/* Field Lable */
+.Lable
+{
+	background: url(WebPartShort1TitleBG.gif) no-repeat;
+	
+}
+
+/* On Focus Input Control And On Leave Input Control */
+.OnFocusInputControl
+{
+	border-right: #002276 1px solid;
+	border-top: #002276 1px solid;
+	border-left: #002276 1px solid;
+	border-bottom: #002276 1px solid;
+	background-color: #EBF5FF;
+	height: 22px;
+}
+
+.OnLeaveInputControl
+{
+	border-right: #7F9DB9 1px solid;
+	border-top: #7F9DB9 1px solid;
+	border-left: #7F9DB9 1px solid;
+	border-bottom: #7F9DB9 1px solid;
+	background-color: #FFFFFF;
+	height: 22px;
+}
+
+.SmallDetails
+{
+	font-family: Arial;
+	font-size: 14px;
+}
+
+/* Note */
+.Note
+{
+	font-family: "tahoma";
+	font-size: 10pt;
+	color: #003366;
+}
+
+/* Hover Menu Extender */
+.HoverMenuExtender
+{
+	background-color: #EBEBEB;
+	cursor: pointer;
+}
+
+/* Result And Validation */
+.Result
+{
+	font-family: "tahoma";
+	Font-Size: 10pt;
+	color: Red;
+}
+
+/* Default Link */
+a
+{
+	TEXT-DECORATION: none;
+	font-size: 11pt;
+	font-weight: bold;
+	color: #235787;
+	font-family: "Times New Roman";
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+/* Banner News */
+.BannerNews
+{
+	
+}
+
+a.BannerNews
+{
+	font-size: 11pt;
+	font-weight: bold;
+	color: #000000;
+}
+
+a:hover.BannerNews
+{
+	color: #990000;
+}
+
+/* News Sections */
+.NewsSections
+{
+}
+
+a.NewsSections
+{
+	color: #ffffff;	
+}
+
+a:hover.NewsSections
+{
+	
+}
+
+/* News */
+.News
+{
+	TEXT-DECORATION: none;
+	font-size: 14pt;
+	font-weight: bold;
+	color: #235787;
+	font-family: "Times New Roman";
+}
+
+a.News
+{
+	font-size: 11pt;
+	font-weight: bold;
+	font-family: "Times New Roman";
+}
+
+a:hover.News
+{
+	
+}
+
+/* News Details */
+.NewsDetails
+{
+	font-size: 14pt;
+	font-family: "arial";
+}
+
+/* News Details1 */
+.NewsDetails1
+{
+	font-size: 16pt;
+	font-family: "Times New Roman";
+}
+
+/* Link Navigation */
+.LinkNavigation
+{
+	
+}
+
+a.LinkNavigation
+{
+	color: #A91717;
+}
+
+a:hover.LinkNavigation
+{
+	
+}
+
+/* More Link Navigation */
+a.MoreLinkNavigation
+{
+	font-family: "tahoma";
+	font-size: 8pt;
+	color: #990033;
+}
+
+a:hover.MoreLinkNavigation
+{
+	
+}
+
+/* Default div 
+div
+{
+	text-align: justify;
+}
+*/
+/* Default img */
+img
+{
+	border: solid 1px #E2E2E2;
+}
+
+/* Default hr */
+hr
+{
+	BORDER: #D6D6D6 1px dotted;
+}
+
+/* hr Separator */
+.hrSeparator
+{
+	BORDER: #D6D6D6 1px dotted;
+	WIDTH: 75px;
+}
+
+/* DateTime */
+.DateTime
+{
+	font-family: "tahoma";
+	font-size: 9pt;
+	color: #336699;
+}
+
+/* Hand Cursor */
+.HandCursor
+{
+	CURSOR: hand;
+}
+
+/* Radio Button Selection */
+.RadioSelection
+{
+	CURSOR: hand;
+	font-family: "tahoma";
+	font-size: 9pt;
+	color: #336699;
+}
+
+/* DateTime */
+.DateTime
+{
+	font-size: 9pt;
+	color: #336699;
+}
+
+/* Hand Cursor */
+.HandCursor
+{
+	CURSOR: pointer;
+}
+
+/* Radio Button Selection */
+.RadioSelection
+{
+	CURSOR: hand;
+	font-family: "tahoma";
+	font-size: 9pt;
+	color: #336699;
+}
+
+/* CopyRights */
+.CopyRights
+{
+	float: right;
+	font-family: "Traditional Arabic";
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+/* PoweredBy */
+.PoweredBy
+{	
+	font-family: "Tahoma";
+	font-size: 8pt;
+	color: #215786;
+}
+
+/* Visitors Count */
+.VisitorsCount
+{
+	margin-left: 13px;
+	background: url(SearchBG.gif) no-repeat;
+	width: 184px;
+	text-align: center;
+	height: 24px;
+	padding-top: 5px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+/* Favorite */
+.Favorite
+{
+	background: url(TopMenuItemBG.gif) no-repeat;
+	width: 92px;
+	text-align: center;
+	height: 23px;
+	padding-top: 6px;
+	color: #ffffff;
+}
+
+.FavoriteLink
+{
+	color: #ffffff;
+}
+
+.OverBlock
+{
+	background-color: #D9E6F2;
+}

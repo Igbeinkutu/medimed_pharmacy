@@ -1,0 +1,37 @@
+body{margin-top:5;padding:0;background-color:#006;font-family:Verdana,Arial,Helvetica,sans-serif;text-align:center;}
+#maincontainer{text-align:left;width:770px;margin:0 auto;}
+#topsection{background:#fff;height:94px;}
+#menu{background:#06c;height:20px;}
+#topsection h1{margin:0;padding-top:25px;}
+#contentwrapper{float:left;width:100%;background:#fff;}
+#contentcolumn{margin-left:180px;}
+#leftcolumn{float:left;width:180px;margin-left:-770px;background:#fafaff;}
+.innertube{margin:10px;margin-top:0;}
+.innertube2{margin:10px;margin-top:10px;}
+.levimeni{margin:0;margin-top:0;}
+ul{font-size:12px;padding-left:10px;margin-left:10px;}
+.stil_menuja{margin:0;margin-top:0;}
+h1{text-decoration:none;font-family:Arial;font-size:34px;color:#f60;margin-bottom:0;}
+.h1 a:link,.h1 a:active,.h1 a:visited,.h1 a:hover{text-decoration:none;font-family:Arial;font-size:34px;color:#f60;}
+p.h1{margin-left:110px;margin-right:5px;text-decoration:none;font-size:11px;color:#3382cf;margin-top:0;}
+p.osnovnimeni{margin-top:0;margin-left:5px;margin-right:5px;text-decoration:none;font-size:11px;color:#fff;padding-top:0;}
+.osnovnimeni a:link,.osnovnimeni a:active,.osnovnimeni a:visited,.osnovnimeni a:hover{text-decoration:none;font-size:11px;color:#fff;}
+.osnovnimeni a:hover{text-decoration:underline;}
+.footer{text-align:center;font-family:Verdana,Geneva,Arial,helvetica,sans-serif;font-size:11px;color:#0060c0;}
+.footer a:link,.footer a:active,.footer a:visited,.footer a:hover{text-decoration:underline;}
+h2{font-family:Arial;font-size:24px;color:#f60;margin-bottom:0;margin-top:25px;}
+p{font-size:12px;line-height:18px;margin-right:10px;}
+#insertcolor{position:relative;padding:4px;background-color:#eee;width:365px;height:20px;text-align:right;font-family:Verdana;font-size:13px;}
+#container{position:relative;padding:4px;background-color:#eee;width:365px;height:205px;font-family:Verdana;font-size:13px;}
+#yui-picker-hex{font-family:Verdana;height:35px;width:120px;font-size:26px;letter-spacing:-1px;}
+#yui-picker-swatch{width:120px;left:244px;}
+div.levimeniok{background-color:#81bef7;color:#fff;font-size:12px;line-height:20px;text-align:center;}
+div.levimeni li{margin-top:5px;}
+#flag { width: 120px; height: 14px; background: url(http://static.html-color-codes.info/flags_0.2.png); margin:0 0 0 640px; padding: 0; position: relative;}
+#flag li {margin: 0; padding: 0; list-style: none; position: absolute; top: 0;}
+#flag li, #flag a {height: 14px; display: block;}
+#uk {left: 0; width: 20px;}
+#esp {left: 25px; width: 45px;}
+#de {left: 50px; width: 70px;} 
+#chn {left: 75px; width: 95px;}
+#nd {left: 100px; width: 120px;}
